@@ -9,7 +9,7 @@ namespace Ejercicio2potenciaC.Controladores
             {
                 pedirI pI = new pedirC();
                 double nund = pI.pedir(0);
-                int numi = int.(pI.pedir(1));
+                int numi = pI.pedir(1);
                 bucleI bI = new bucleC();
                 bI.bucle(nund, numi);
 
